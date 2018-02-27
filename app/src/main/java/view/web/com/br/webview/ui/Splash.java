@@ -16,7 +16,7 @@ import view.web.com.br.webview.R;
 
 public class Splash extends Activity {
 
-    @BindView(R.id.text_splash) public TextView textViewSplash;
+    public TextView textViewSplash;
 
     private Class[] paramTypes = { Integer.TYPE, Integer.TYPE };
     private Method overrideAnimation = null;
@@ -26,8 +26,8 @@ public class Splash extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        ButterKnife.bind(Splash.this);
-        textViewSplash.setText(R.string.text_splash);
+        ButterKnife.bind(this);
+        textViewSplash = (TextView) findViewById(R.id.text_splash);
 
         try {
             Class<?> activityClass = Class.forName("android.app.Activity");
