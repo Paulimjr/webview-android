@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WebView</string>
+    <string name="text_splash">Github in WebView Android.</string>
+    <string name="loading_please_wait">Loading, Please Wait..</string>
+</resources>

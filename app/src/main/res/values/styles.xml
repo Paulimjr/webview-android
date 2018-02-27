@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimarySplash</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkSplash</item>
+        <item name="colorAccent">@color/colorPrimarySplash</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+    </style>
+
+    <!--Tema da tela de Splash-->
+    <style name="ThemeSplash" parent="@android:style/Theme.Material.Light.NoActionBar" tools:targetApi="lollipop">
+        <item name="android:colorPrimary">@color/colorPrimarySplash</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkSplash</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackgroundSplash</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDarkSplash</item>
+    </style>
+
+</resources>
